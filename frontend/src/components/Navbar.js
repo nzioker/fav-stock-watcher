@@ -1,5 +1,3 @@
-import React, { useState } from 'react'
-
 export default function Navbar({ username, onLogout, onOpenModal }) {
   return (
     <nav className='bg-white shadow-md sticky top-0 z-50'>

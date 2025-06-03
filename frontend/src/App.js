@@ -7,7 +7,6 @@ import { getCookie } from '../src/utils/csrf'
 export default function App() {
   const [isAuthenticated, setIsAuthenticated] = useState(false)
   const [user, setUser] = useState(null)
-  const csrftoken = getCookie('csrftoken')
 
   useEffect(() => {
     // Fetch CSRF cookie on app load
